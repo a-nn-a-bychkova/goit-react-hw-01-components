@@ -1,6 +1,6 @@
 .profile {
   width: 210px;
-
+  margin: 40px;
   display: flex;
   flex-direction: column;
   border: 1px solid grey;
