@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #c0c0c0;
+  margin-left: 50px;
+}
+
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  width: 40px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.label {
+  font-size: 12px;
+}
