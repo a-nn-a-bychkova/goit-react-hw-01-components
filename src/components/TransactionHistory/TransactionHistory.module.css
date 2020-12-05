@@ -1,0 +1,19 @@
+table {
+  width: 600px;
+}
+thead {
+  background-color: cornflowerblue;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+td {
+  text-align: center;
+  color: grey;
+  border: 1px solid grey;
+}
+
+.type {
+  text-transform: capitalize;
+}

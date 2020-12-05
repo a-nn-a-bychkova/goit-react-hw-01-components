@@ -3,9 +3,11 @@
 // import Statistics from './components/Statistics/Statistics';
 // import StatisticsList from './components/Statistics/StatisticsList';
 // import stats from './statistical-data.json';
+// import friends from './friends.json';
+// import FriendsList from './components/Friends/FriendsList';
 
-import friends from './friends.json';
-import FriendsList from './components/Friends/FriendsList';
+import transactions from './transactions.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 export default function App() {
   return (
@@ -26,8 +28,11 @@ export default function App() {
     //     <StatisticsList items={stats} />
     //   </Statistics>
     // </div>
+    // <div>
+    //   <FriendsList friends={friends} />
+    // </div>
     <div>
-      <FriendsList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
