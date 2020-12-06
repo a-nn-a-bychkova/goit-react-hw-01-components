@@ -33,5 +33,5 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  stats: PropTypes.arrayOf(PropTypes.number.isRequired).isRequired,
+  stats: PropTypes.arrayOf(PropTypes.number).isRequired,
 };
