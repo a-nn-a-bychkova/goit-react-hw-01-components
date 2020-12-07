@@ -8,7 +8,7 @@ export default function FriendsList({ friends }) {
       {friends.map(friend => {
         return (
           <FriendsListItem
-            id={friend.id}
+            key={friend.id}
             avatar={friend.avatar}
             name={friend.name}
             isOnline={friend.isOnline}
